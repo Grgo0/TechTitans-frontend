@@ -55,7 +55,7 @@
         app:srcCompat="@drawable/baseline_contactless_24" />
 
     <ImageView
-        android:id="@+id/imgView_decorativeLine"
+        android:id="@+id/imgView_decorative_line"
         android:layout_width="378dp"
         android:layout_height="306dp"
         android:layout_marginTop="16dp"
@@ -78,7 +78,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.855"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imgView_decorativeLine"
+        app:layout_constraintTop_toTopOf="@+id/imgView_decorative_line"
         app:layout_constraintVertical_bias="0.948" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
