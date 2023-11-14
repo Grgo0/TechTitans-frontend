@@ -1,5 +1,6 @@
 package com.example.ttpay
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -28,6 +29,9 @@ class LoginActivity : AppCompatActivity() {
 
             if (enteredUsername == adminUser.username && enteredPassword == adminUser.password) {
                 // Correct login credentials, redirect to a new page
+                val intent = Intent(this, AdminHomeActivity::class.java)
+                startActivity(intent)
+                finish() // Close the current activity
             } else {
                 // Incorrect credentials, show an error message
                 Toast.makeText(this, "Invalid username or password", Toast.LENGTH_SHORT).show()
