@@ -10,15 +10,6 @@ class AdminHomeActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_admin_home)
 
-        // Implementation of the merchant list when you have a database
-
-        // Button to create a new merchant
-        val btnCreateMerchant: View = findViewById(R.id.btn_createMerchant)
-        btnCreateMerchant.setOnClickListener {
-            // Open a new view for creating a new merchant
-            // Add logic for creating a new merchant here if needed
-        }
-
         // Button to log out
         val imgLogout: View = findViewById(R.id.imgView_logout)
         imgLogout.setOnClickListener {
